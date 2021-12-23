@@ -21,3 +21,47 @@ For some time after completing the courses, she took an internship as a junior f
 
 ***
 
+## Skills
+
+* HTML5 (BEM)
+* CSS3 (native, SASS/SCSS)
+* JavaScript (basics)
+* Git, GitHub
+* Gulp
+* Sublime Text, VS Code
+* Figma, Adobe Photoshop
+
+
+***
+
+## Code example
+
+### *Code Wars kata "Can we divide it?"*
+
+```
+
+function isDivideBy(number, a, b) {
+  if (number % a == 0 && number % b == 0) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+```
+
+***
+
+## Experience
+
+### Junior front-end developer
+
+#### 08/2018 - 03/2019 "Liga A" https://ligaa.agency
+
+
+***
+
+
+
+
+
