@@ -1,7 +1,7 @@
 # Anastacia Titova
 
 ## Contacts
-***
+---
 
 * Phone: +7(916-922-39-83)
 * Email: mishasya@bk.ru
@@ -11,8 +11,7 @@
 
 
 ## Summary
-
-***
+---
 
 I became interested in web development when I was on maternity leave. I started to dive into layout a little and realized that I wanted to do it professionally. I really enjoyed studying web development and then I signed up for professional courses which I successfully completed with a diploma and several projects in my portfolio.
 
