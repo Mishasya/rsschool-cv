@@ -56,10 +56,22 @@ function isDivideBy(number, a, b) {
 
 ### Junior front-end developer
 
-#### 08/2018 - 03/2019 "Liga A" https://ligaa.agency
+#### 08/2019 - 03/2020 [Liga A](ligaa.agency)
 
 
 ***
+
+## Courses
+
+Course **"Profession front-end developer"** consisting of three stages on the [Html Academy](htmlacademy.ru)
+
+***
+
+## Languages
+
+* Russian - native speaker
+* English - A1
+
 
 
 
