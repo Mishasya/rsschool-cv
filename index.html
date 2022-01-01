@@ -4,9 +4,207 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>My CV</title>
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#summary">Summary</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#experience">Work experience</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#languages">Languages</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#code">Code example</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#education">Education</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#skills">Skills</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button aria-label="Open menu"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="summary" id="summary">
+        <h1 class="title">Anastacia Titova</h1>
+
+        <p class="summary__text">I&nbsp;became interested in&nbsp;web development when&nbsp;I was on&nbsp;maternity leave. I&nbsp;started to&nbsp;dive into layout a&nbsp;little and realized that&nbsp;I wanted to&nbsp;do&nbsp;it&nbsp;professionally. I&nbsp;signed up&nbsp;for professional courses which&nbsp;I successfully completed with a&nbsp;diploma and several projects in&nbsp;my&nbsp;portfolio. For some time after completing the courses, I&nbsp;was doing an&nbsp;internship as&nbsp;a&nbsp;junior front-end developer. I&nbsp;have also completed several personal pet projects. I&nbsp;try to&nbsp;keep up&nbsp;with modern web development trends, read professional articles, textbooks, and listen to&nbsp;podcasts.</p>
+      </section>
+
+      <section class="experience" id="experience">
+        <h2 class="subtitle">Work experiences</h2>
+
+        <ul class="list experience__list">
+          <li class="lilst__item experience__list-item">
+            <span class="list__date">08/2019 - 03/2020</span>
+            <h3 class="caption">Liga A</h3>
+            <span class="experience__list-position">Junior front-end developer</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="languages" id="languages">
+        <h2 class="subtitle">Languages</h2>
+
+        <ul class="list languages__list">
+          <li class="list__item">
+            <p class="languages__list-name"><span class="languages__list-text">Russian</span> &ndash; native speaker</p>
+          </li>
+          <li class="list__item">
+            <p class="languages__list-name"><span class="languages__list-text">English</span> &ndash; A1</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="code" id="code">
+        <h2 class="subtitle">Code example</h2>
+
+        <h3 class="caption">Code Wars kata "Can we divide it?</h3>
+
+        <pre class="code__snippet">
+          <code>
+            function isDivideBy(number, a, b) {
+              if (number % a == 0 && number % b == 0) {
+                return true;
+              } else {
+                return false;
+              }
+            };
+          </code>
+        </pre>
+
+        <ul class="list">
+          <li class="list__item">
+            <h3 class="caption">Pet-project 
+              <a class="list__link" href="https://github.com/Mishasya/Floristry">Floristry(GitHub)</a>
+            </h3>
+          </li>
+          <li class="list__item">
+            <h3 class="caption">Pet-project 
+              <a class="list__link" href="https://github.com/Mishasya/portal">Portal(GitHub)</a>
+            </h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <h2 class="visually-hidden">Contacts</h2>
+
+        <img class="img" src="assets/img/photo.jpg" width="225" height="250" alt="My photo">
   
+        <ul class="list contacts-list">
+          <li class="contacts-list__item">
+            <span class="contacts-list__text">Location: Russia, Moscow, Zelenograd</span>
+          </li>
+          <li class="contacts-list__item">
+            <span class="contacts-list__text">Email: </span>
+            <a class="contacts-list__link" href="mailto:mishasya@bk.ru">mishasya@bk.ru</a>
+          </li>
+          <li class="contacts-list__item">
+            <span class="contacts-list__text">Telegram: </span>
+            <a class="contacts-list__link" href="https://t.me/mishasya">Mishasya</a>
+          </li>
+          <li class="contacts-list__item">
+            <span class="contacts-list__text">GitHub: </span>
+            <a class="contacts-list__link" href="https://github.com/Mishasya">Mishasya</a>
+          </li>
+          <li class="contacts-list__item">
+            <span class="contacts-list__text">Discord: Mishasya(@Mishasya)</span></li>
+        </ul>
+      </section>
+
+      <section class="education" id="education">
+        <h2 class="subtitle">Education</h2>
+
+        <ul class="list">
+          <li class="list__item">
+            <h3 class="caption">Professional HTML & CSS Level 1</h3>
+            <span class="list__date">September, 2018</span>
+            <a class="list__link" href="https://assets.htmlacademy.ru/certificates/intensive/87/146892.pdf?1536906100&_ga=2.111898370.768171701.1640877797-434887730.1623492188" aria-label="Go to the certificate page">
+              <img class="list__img" src="assets/img/html-css1.jpg" width="214" height="300" alt="certificate">
+            </a>
+          </li>
+          <li class="list__item">
+            <h3 class="caption">Professional HTML & CSS Level 2</h3>
+            <span class="list__date">October, 2018</span>
+            <a class="list__link" href="https://assets.htmlacademy.ru/certificates/intensive/91/146892.pdf?1541826596&_ga=2.124602380.768171701.1640877797-434887730.1623492188" aria-label="Go to the certificate page">
+              <img class="list__img" src="assets/img/html-css2.jpg" width="214" height="300" alt="certificate">
+            </a>
+          </li>
+          <li class="list__item">
+            <h3 class="caption">JavaScript Level 1</h3>
+            <span class="list__date">December, 2018</span>
+            <a class="list__link" href="https://assets.htmlacademy.ru/certificates/intensive/95/146892.pdf?1547031742&_ga=2.120701710.768171701.1640877797-434887730.1623492188" aria-label="Go to the certificate page">
+              <img class="list__img" src="assets/img/js1.jpg" width="214" height="300" alt="certificate">
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="subtitle">Skills</h2>
+
+        <ul class="list">
+          <li class="list__item">
+            <p class="list__text">HTML5 (BEM)</p>
+          </li>
+          <li class="list__item">
+            <p class="list__text">CSS3 (native, SASS/SCSS)</p>
+          </li>
+          <li class="list__item">
+            <p class="list__text">JavaScript (basics)</p>
+          </li>
+          <li class="list__item">
+            <p class="list__text">Git, GitHub</p>
+          </li>
+          <li class="list__item">
+            <p class="list__text">Gulp</p>
+          </li>
+          <li class="list__item">
+            <p class="list__text">Sublime Text, VS Code</p>
+          </li>
+          <li class="list__item">
+            <p class="list__text">Figma, Adobe Photoshop</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <ul class="list">
+        <li class="list__item">
+          <a class="list__link" href="https://github.com/Mishasya" aria-label="Go to the GitHub"></a>
+        </li>
+        <li class="list__item">2022</li>
+        <li class="list__item">
+          <a class="list__link" href="https://rs.school/js/" aria-label="Go to the course page on JavaScript RS School">
+            <img src="assets/img/rs-school-js.svg" width="195" height="70" alt="Logo RS School">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
