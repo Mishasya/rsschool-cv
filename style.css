@@ -249,8 +249,8 @@ img {
 
 .nav__list-link:hover {
   opacity: 1;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.195);
+          transform: scale(1.195);
 }
 
 .summary__text {
