@@ -1,4 +1,5 @@
 /* vars */
+
 :root {
   --font-family: "Montserrat", "Arial", sans-serif;
   --color-black: #000000;
@@ -13,7 +14,6 @@
   src: url("assets/fonts/Montserrat-Regular.woff2");
   font-weight: 400;
 }
-
 @font-face {
   font-family: "Montserrat";
   src: url("assets/fonts/Montserrat-Bold.woff2");
@@ -21,15 +21,13 @@
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -70,6 +68,7 @@ img {
 
 .btn-reset {
   padding: 0;
+
   background: transparent;
   border: none;
   cursor: pointer;
@@ -85,4 +84,3 @@ img {
   padding: 0 20px;
   max-width: 1440px;
 }
-/*# sourceMappingURL=style.css.map */
